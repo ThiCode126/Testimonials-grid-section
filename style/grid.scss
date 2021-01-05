@@ -1,0 +1,13 @@
+.grid {
+    display: block;
+}
+
+/* ######################################## */
+/*                  Responsive              */
+/* ######################################## */
+@media (min-width: 1080px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 255px);
+    }
+}

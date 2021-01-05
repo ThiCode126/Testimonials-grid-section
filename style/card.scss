@@ -1,0 +1,66 @@
+
+.card {
+    width: 255px;
+    margin-bottom: 24px;
+    padding: 26px 32px 32px;
+    border-radius: 8px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &#card-1 {
+        background-color: #733FC8;
+    }
+
+    &#card-2 {
+        background-color: #48556A;
+    }
+
+    &#card-3 {
+        background-color: #FFF;
+    }
+
+    &#card-4 {
+        background-color: #19202D;
+    }
+
+    &#card-5 {
+        background-color: #FFFFFF;
+    }
+
+    .author {
+        display: grid;
+        grid-template-columns: 40px auto;
+
+        img {
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            height: 28px;
+            width: 28px;
+        
+            &#picture-1 {
+                border-color: #A775F1;
+            }
+        }
+        
+        .profil {
+            display: flex;
+            flex-direction: column;
+
+            .name {
+                font-weight: 500;
+                font-size: 13px;
+                margin-bottom: 4px;
+            }
+
+            .grade {
+                font-weight: 500;
+                font-size: 11px;
+                opacity: 0.5;
+            }
+        }
+    }
+
+}

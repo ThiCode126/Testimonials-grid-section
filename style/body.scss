@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+    .txt-white {
+        color: #FFF;
+    }
+
+    .txt-grey {
+        color: #CFCFCF;
+    }
+
+    .txt-dark {
+        color: #48556A;
+    }
+
+    .txt-light {
+        color: #ECF2F8;
+    }
+}
+
