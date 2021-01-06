@@ -1,6 +1,6 @@
 
 .card {
-    width: 255px;
+    width: 263px;
     margin-bottom: 24px;
     padding: 26px 32px 32px;
     border-radius: 8px;
@@ -32,6 +32,7 @@
     .author {
         display: grid;
         grid-template-columns: 40px auto;
+        margin-bottom: 18px;
 
         img {
             border-radius: 50%;
@@ -61,6 +62,21 @@
                 opacity: 0.5;
             }
         }
+    }
+
+    .title {
+        font-size: 20px;
+        margin-bottom: 40px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+
+    .desc {
+        font-size: 13px;
+        line-height: 18px;
+        opacity: 0.7;
+        font-weight: 500;
+        mix-blend-mode: normal;
     }
 
 }
