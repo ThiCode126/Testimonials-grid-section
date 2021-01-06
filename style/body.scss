@@ -1,7 +1,8 @@
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     min-height: 100vh;
     background-color: #ECF2F8;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -20,6 +21,11 @@ body {
 
     .txt-light {
         color: #ECF2F8;
+    }
+
+    .attribution {
+        font-style: italic;
+        font-size: 11px;
     }
 }
 
