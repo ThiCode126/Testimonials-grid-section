@@ -1,25 +1,24 @@
 
 .card {
     width: 263px;
-    margin-bottom: 24px;
     padding: 26px 32px 32px;
     border-radius: 8px;
     position: relative;
     z-index: 1;
 
-    &:last-child {
-        margin-bottom: 0;
-    }
-
-    .quotation {
-        z-index: 2;
-        position: absolute;
-        top: 0px;
-        right: 24px;
-    }
-
     &#card-1 {
         background-color: #733FC8;
+
+        .quotation {
+            z-index: 2;
+            position: absolute;
+            top: 0px;
+            right: 24px;
+        }
+
+        .title {
+            position: inherit;
+        }
     }
 
     &#card-2 {
@@ -41,7 +40,7 @@
     .author {
         display: grid;
         grid-template-columns: 40px auto;
-        margin-bottom: 18px;
+        margin-bottom: 12px;
 
         img {
             border-radius: 50%;
