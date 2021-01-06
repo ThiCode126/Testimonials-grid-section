@@ -39,7 +39,7 @@
 
     .author {
         display: grid;
-        grid-template-columns: 40px auto;
+        grid-template-columns: 32px auto;
         margin-bottom: 12px;
 
         img {
@@ -61,6 +61,7 @@
         .profil {
             display: flex;
             flex-direction: column;
+            margin-left: 17px;
 
             .name {
                 font-weight: 500;
